@@ -8,7 +8,7 @@ def my_collect(array)
       new_collection << 
       i += 1 
   end
-  return new_collection
+  new_collection
 end
 end
 
