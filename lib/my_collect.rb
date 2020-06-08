@@ -8,8 +8,8 @@ def my_collect(array)
       new_collection << 
       i += 1 
   end
-  new_collection
 end
+  new_collection
 end
 
   
