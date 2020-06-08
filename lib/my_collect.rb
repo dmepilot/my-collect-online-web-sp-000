@@ -1,14 +1,16 @@
-def my_collect(collection)
+def my_collect(array)
   if block_given?
     new_collection = []
     i = 0 
     while 
-      i < collection.length 
+      i < array.length 
       new_collection << 
-      yield collection[i]
+      yield array[i]
       i += 1 
   end
   new_collection
 end
 
-my_collect
+
+  
+  
