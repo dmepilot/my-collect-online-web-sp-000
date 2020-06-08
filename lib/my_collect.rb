@@ -6,7 +6,6 @@ def my_collect(array)
       i < array.length 
       yield array[i]
       new_collection << 
-    
       i += 1 
   end
   new_collection
