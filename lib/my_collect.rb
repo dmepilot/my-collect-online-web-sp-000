@@ -1,6 +1,5 @@
 def my_collect(collection)
-  if collection.block_given?
-    i = 0 
+  if block_given?
     while 
       i < collection.length 
       yield 
